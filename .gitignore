@@ -1,0 +1,28 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+
+# Rebuildable dependencies and caches
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+web/dist/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+benchmarks/results/
+
+# Local editor state, logs, and operating-system metadata
+.idea/
+.vscode/
+*.bak
+*.swp
+*.log
+*.log.*
+.DS_Store
